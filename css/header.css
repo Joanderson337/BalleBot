@@ -1,0 +1,29 @@
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.4rem;
+}
+
+.cabecalho-imagem{
+  height: 7.2rem;
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 3.2rem;
+}
+
+.cabecalho-item{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+
+.cabecalho-item:hover{
+  color: yellow;
+}
+
+

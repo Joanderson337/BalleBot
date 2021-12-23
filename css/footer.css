@@ -1,0 +1,10 @@
+.rodape{
+  padding: 3.1rem;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-img{
+  height: 4.8rem;
+  display: block;
+  margin: 0 auto;
+}
