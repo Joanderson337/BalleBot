@@ -98,10 +98,18 @@
   .cabecalho-item{
     font-size: 0.5;
   }
-  .cabecalho-imagem{
-    max-width: 2rem;
-  }
   .load{
     background-size: 200px;
+  }
+  .btn-mobile{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  .cabecalho-item{
+    font-size: 0.8rem;
+  }
+  .cabecalho-imagem{
+    max-width: 3rem;
   }
 }
