@@ -101,4 +101,7 @@
   .cabecalho-imagem{
     max-width: 2rem;
   }
+  .load{
+    background-size: 200px;
+  }
 }
