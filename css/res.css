@@ -1,0 +1,104 @@
+@media(max-width:1200px){
+
+}
+
+@media(max-width: 991px){
+  .cabecalho-imagem{
+    max-width: 5rem
+  }
+  .cabecalho-item{
+    font-size: 1.3rem;
+  }
+  .conteudo-principal-imagem{
+    max-width: 30rem;
+  }
+  .conteudo-principal-escrito-titulo{
+    font-size: 3.4rem;
+  }
+  .conteudo-principal-escrito-subtitulo{
+    font-size: 1.5rem;
+  }
+  .conteudo-principal-escrito-botao {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  .conteudo-secundario-paragrafo{
+    font-size: 1.3rem;
+  }
+  strong{
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 768px){
+  .conteudo-principal-imagem{
+    max-width: 20rem;
+  }
+  .conteudo-principal-escrito-titulo{
+    font-size: 3rem;
+  }
+  .conteudo-principal-escrito-subtitulo{
+    font-size: 1.2rem;
+  }
+  .conteudo-principal-escrito-botao {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+  .conteudo-secundario-paragrafo{
+    font-size: 1.2rem;
+  }
+
+  strong{
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media(max-width: 600px){
+  .cabecalho-item{
+    font-size: 1rem;
+  }
+  .cabecalho-imagem{
+    max-width: 4rem;
+  }
+  .conteudo-principal{
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+  .conteudo-principal-escrito{
+    gap: 2rem;
+    padding-left: 6rem;
+  }
+  .conteudo-principal-imagem{
+    height: 30rem;
+  }
+  .conteudo-secundario{
+    margin-top: 0;
+  }
+  .conteudo-secundario-titulo{
+      font-size: 2rem;
+  }
+  .conteudo-secundario-paragrafo{
+    font-size: 0.9rem;
+  }
+  strong{
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width: 480px){
+  .conteudo-secundario-paragrafo{
+    font-size: 0.7rem;
+  }
+  strong{
+    font-size: 0.7rem;
+  }
+  .cabecalho-item{
+    font-size: 0.5;
+  }
+  .cabecalho-imagem{
+    max-width: 2rem;
+  }
+}
